@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './JobHistory.css'
-import Jobs from './Jobs'
+import Job from './Job'
 
 class JobHistory extends Component {
     state = {
@@ -28,9 +28,9 @@ class JobHistory extends Component {
             <div className="main">
                 <div className="title">Job History</div>
                 <div className="jobs">
-                    <Jobs title={this.state.job1.title} company={this.state.job1.company} dates={this.state.job1.dates} des={this.state.job1.des}/>
-                    <Jobs title={this.state.job2.title} company={this.state.job2.company} dates={this.state.job2.dates} des={this.state.job2.des}/>
-                    <Jobs title={this.state.job3.title} company={this.state.job3.company} dates={this.state.job3.dates} des={this.state.job3.des}/>
+                    <Job title={this.state.job1.title} company={this.state.job1.company} dates={this.state.job1.dates} des={this.state.job1.des}/>
+                    <Job title={this.state.job2.title} company={this.state.job2.company} dates={this.state.job2.dates} des={this.state.job2.des}/>
+                    <Job title={this.state.job3.title} company={this.state.job3.company} dates={this.state.job3.dates} des={this.state.job3.des}/>
                 </div>
             </div>
         )

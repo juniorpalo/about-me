@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Jobs extends Component {
+class Job extends Component {
     render(){
         return(
             <div>
@@ -21,4 +21,4 @@ class Jobs extends Component {
     }
 }
 
-export default Jobs
+export default Job
