@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Pro.css'
 
 class Pro extends Component{
     render(){
