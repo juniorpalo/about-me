@@ -1,0 +1,19 @@
+.jobs {
+    padding: 20px;
+}
+
+.main {
+    background-color: brown;
+    height: 1000px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.title{
+    font-family: cursive;
+    font-size: 55px;
+    text-align: center;
+}
+h1{
+    margin-top:0;
+}
