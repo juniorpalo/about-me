@@ -6,7 +6,7 @@ class Pro extends Component{
         return(
             <div>
                 <h3>
-                    <a href={this.props.githublink} target='blank'>
+                    <a href={this.props.githublink} target='_blank'>
                     {this.props.title}</a>
                 </h3>
                 <p>

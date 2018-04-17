@@ -11,9 +11,9 @@ class App extends Component {
       <Router>
       <div className="App">
         <nav>
-          <Link to ='/'>About Me ||</Link>
-          <Link to ='/JobHistory'> Job History ||</Link>
-          <Link to ='/Projects'> Projects</Link>
+          <Link to='/'>About Me ||</Link>
+          <Link to='/JobHistory'> Job History ||</Link>
+          <Link to='/Projects'> Projects</Link>
         </nav>
         <Route exact path='/' component={Home}/>
         <Route exact path='/JobHistory' component={JobHistory}/>
